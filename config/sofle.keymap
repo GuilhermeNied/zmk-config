@@ -31,11 +31,11 @@
 
         primary {
             bindings = <
-&kp ESC    &kp N1  &kp N2    &kp N3        &kp N4          &kp N5                               &kp N6           &kp N7                &kp N8            &kp N9     &kp N0    &kp EQUAL
-&kp TAB    &kp Q   &kp W     &kp E         &kp R           &kp T                                &kp Y            &kp U                 &kp I             &kp O      &kp P     &kp BACKSPACE
-&kp CAPS   &kp A   &kp S     &kp D         &kp F           &kp G                                &kp H            &kp J                 &kp K             &kp L      &kp SEMI  &kp GRAVE
-&kp LCTRL  &kp Z   &kp X     &kp C         &kp V           &kp B     &trans         &kp C_MUTE  &kp N            &kp M                 &kp COMMA         &kp DOT    &kp FSLH  &kp RBKT
-                   &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LBKT  &lt 1 SPACE    &kp ENTER   &kp RIGHT_SHIFT  &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp MINUS
+&kp ESC    &kp N1  &kp N2    &kp N3        &kp N4          &kp N5                             &kp N6           &kp N7                &kp N8            &kp N9     &kp N0    &kp EQUAL
+&kp TAB    &kp Q   &kp W     &kp E         &kp R           &kp T                              &kp Y            &kp U                 &kp I             &kp O      &kp P     &kp BACKSPACE
+&kp CAPS   &kp A   &kp S     &kp D         &kp F           &kp G                              &kp H            &kp J                 &kp K             &kp L      &kp SEMI  &kp GRAVE
+&kp LCTRL  &kp Z   &kp X     &kp C         &kp V           &kp B     &tog 1       &kp C_MUTE  &kp N            &kp M                 &kp COMMA         &kp DOT    &kp FSLH  &kp RBKT
+                   &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LBKT  &kp SPACE    &kp ENTER   &kp RIGHT_SHIFT  &kp NON_US_BACKSLASH  &kp SINGLE_QUOTE  &kp MINUS
             >;
 
             sensor-bindings =
@@ -45,21 +45,21 @@
 
         secondary {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3          &kp F4  &kp F5                         &kp F6          &kp F7           &kp F8        &kp F9           &kp F10  &kp DELETE
-&trans  &trans  &trans  &trans          &trans  &trans                         &trans          &trans           &trans        &trans           &trans   &kp HOME
-&trans  &trans  &trans  &trans          &trans  &trans                         &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &kp END
-&trans  &trans  &trans  &trans          &trans  &trans  &trans         &trans  &trans          &trans           &trans        &trans           &trans   &kp PRINTSCREEN
-                &trans  &bt BT_CLR_ALL  &trans  &trans  &lt 2 SPACE    &trans  &trans          &kp PRINTSCREEN  &trans        &trans
+&trans  &kp F1  &kp F2  &kp F3          &kp F4  &kp F5                    &kp F6          &kp F7           &kp F8        &kp F9           &kp F10  &kp DELETE
+&trans  &trans  &trans  &trans          &trans  &trans                    &trans          &trans           &trans        &trans           &trans   &kp HOME
+&trans  &trans  &trans  &trans          &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &kp END
+&trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans          &trans           &trans        &trans           &trans   &kp PRINTSCREEN
+                &trans  &bt BT_CLR_ALL  &trans  &trans  &trans    &trans  &trans          &kp PRINTSCREEN  &trans        &trans
             >;
         };
 
         tertiary {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans          &trans        &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans          &trans        &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans          &trans        &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans        &bt BT_CLR_ALL  &trans        &trans        &lt 0 SPACE    &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans          &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans          &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans          &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                      &trans        &bt BT_CLR_ALL  &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
